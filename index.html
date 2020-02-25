@@ -9,7 +9,8 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/components/css/style.css" />
     <script src="https://kit.fontawesome.com/ce509ef1ab.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
@@ -20,17 +21,18 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
-    <script src="main.js"></script>
+    <script src="/components/javascript/main.js"></script>
     <title>The River Community Church</title>
 </head>
 
 <body>
     <header class="header">
         <div>
-            <a href="index.html"><img src="image/riverlogo.png" title="The River Community Church/ Your Journey Starts Here!" class="logo" /></a>
+            <a href="index.html"><img src="image/riverlogo.png"
+                    title="The River Community Church/ Your Journey Starts Here!" class="logo" /></a>
         </div>
         <div id="countholder">
-           <div><span class="days" id="days"></span>
+            <div><span class="days" id="days"></span>
                 <div class="smalltext">Days</div>
             </div>
             <div><span class="hours" id="hours"></span>
@@ -65,26 +67,32 @@
             </video>
         </div>
     </header>
-    <div class="sectionA" style="background-image: url(image/emotions.jpg);">
-        <h1>I'm New</h1>
-        <button>Learn More</button>
+    <div class="section" style="background-image: url(image/emotions.jpg);">
+        <div class="sectionHeadings">
+            <h1>I'm New</h1>
+            <button>Learn More</button>
+        </div>
     </div>
-    <div class="sectionB" style="background-image: url(image/nature.jpg);">
-        <h1>Currently</h1>
-        <button>Learn More</button>
+    <div class="section" style="background-image: url(image/nature.jpg);">
+        <div class="sectionHeadings">
+            <h1>Currently</h1>
+            <button>Learn More</button>
+        </div>
     </div>
-    <div class="sectionA" style="background-image: url(image/sunset.jpg);">
-        <h1>Messages</h1>
-        <button>Learn More</button>
+    <div class="section" style="background-image: url(image/sunset.jpg);">
+        <div class="sectionHeadings">
+            <h1>Messages</h1>
+            <button>Learn More</button>
+        </div>
     </div>
-    <footer>
-        <div>
-            <div class="row">
+    <footer class="footer">
+        <div class="container">
+            <div class="row py-4">
                 <div class="col-md-3">
-                    <img src="image/riverlogo.png" height="40px" width="40px" />
+                    <img src="image/riverlogo.png" height="40px" width="40px" class="my-2" />
                     <p>Phone: 555-555-5555</p>
                     <p>Email Us</p>
-                    <ul>
+                    <ul class="social">
                         <li><a href="javascript:void(0);"><i class="fab fa-twitter"></i></a></li>
                         <li><a href="javascript:void(0);"><i class="fab fa-facebook"></i></a></li>
                         <li><a href="javascript:void(0);"><i class="fab fa-instagram"></i></a></li>
@@ -92,7 +100,7 @@
                 </div>
                 <div class="col-md-3">
                     <h3>Useful Info</h3>
-                    <ul>
+                    <ul class="socialAlpha">
                         <li>I'm New</li>
                         <li>Currently</li>
                         <li>Give With Purpose</li>
@@ -101,7 +109,7 @@
                 </div>
                 <div class="col-md-3">
                     <h3>Ministries</h3>
-                    <ul>
+                    <ul class="socialAlpha">
                         <li>Kids</li>
                         <li>Students</li>
                         <li>Women and Men</li>
