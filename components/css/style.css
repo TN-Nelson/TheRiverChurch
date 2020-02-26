@@ -148,6 +148,11 @@
   text-align: center;
   margin-top: 12%;
 }
+.sectionHeadings p{
+  background-color:rgba(29, 28, 28,0.3);
+  color: white;
+  font-weight: bold;
+}
 .footer{
   background-color: rgb(29, 28, 28);
   color: white;
@@ -199,4 +204,7 @@
 }
 .pastorBio{
   padding: 20px;
+}
+.card{
+  background-color:rgba(100,149,237,0.1);
 }
