@@ -1,14 +1,14 @@
-.header{
- max-height: 500px;
- overflow: hidden;
+.header {
+  max-height: 500px;
+  overflow: hidden;
   margin-bottom: 0;
   padding-top: 0;
   border: black;
-  border-style: outset;
-  border-width: 8px;
+  border-style: solid;
+  border-width: 5px;
   position: relative;
 }
-.logo{
+.logo {
   z-index: 1;
   height: 80px;
   width: 80px;
@@ -16,7 +16,19 @@
   margin-top: 10px;
   margin-left: 20px;
 }
-
+.countLabel{
+  font-size: 30px;
+  right: 30%;
+  margin-top: 30px;
+  display: inline-block;
+  font-family: sans-serif;
+   font-weight: 100;
+  text-align: center;
+  margin-bottom: 10px;
+  line-height: 1;
+  position: absolute;
+  z-index: 1;
+}
 #countholder .link {
   margin-top: 40px;
 }
@@ -26,7 +38,7 @@
   font-size: 15px;
   padding: 15px;
   background: #265;
-  border-radius: 8px;
+  border-radius: 5px;
   text-decoration: none;
 }
 
@@ -37,7 +49,7 @@
 #countholder {
   position: absolute;
   margin-top: 10px;
-  left: 74%;
+  right:8%;
   font-family: sans-serif;
   color: #fff;
   display: inline-block;
@@ -46,14 +58,14 @@
   font-size: 30px;
   background-color: rgb(122, 139, 194);
   padding: 5px;
-  border-radius:5px;
+  border-radius: 5px;
   margin-bottom: 10px;
   line-height: 1;
 }
 
 #countholder > div {
   padding: 8px 8px;
-  border-radius: 2px;
+  border-radius: 5px;
   background: rgb(68, 68, 88);
   display: inline-block;
 }
@@ -75,8 +87,7 @@
   margin-top: 15%;
   margin-left: 45%;
 }
-.center-tag{
-  
+.center-tag {
   color: black;
   font-size: 24px;
   text-align: center;
@@ -85,20 +96,20 @@
   margin-top: 27%;
   margin-left: 41%;
 }
-.nav-logo{
+.nav-logo {
   margin-left: 60px;
   margin-top: 20px;
   height: 100px;
   width: 100px;
 }
-.betaNav{
+.betaNav {
   z-index: 2;
   position: fixed;
   top: 25px;
   left: 95%;
   font-size: 30px;
 }
-.appNav {
+.appNav{
   height: 100%;
   width: 0;
   position: fixed;
@@ -109,9 +120,11 @@
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
-  
 }
-.appNav a {
+.dropdown-menu, .dropdown-item:hover{
+  background-color: rgb(15, 10, 2);
+}
+.appNav a, .dropdown-menu a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 25px;
@@ -119,7 +132,7 @@
   display: block;
   transition: 0.3s;
 }
-.appNav a:hover {
+.appNav a:hover, .dropdown-menu:hover {
   color: #f1f1f1;
 }
 .appNav .closebtn {
@@ -129,31 +142,31 @@
   right: 25px;
   font-size: 36px;
 }
-.section{
+.section {
   height: 400px;
   border: black;
-  border-style: outset;
-  border-width: 8px;
+  border-style: solid;
+  border-width: 5px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-.sectionAlpha{
+.sectionAlpha {
   height: 600px;
   border: black;
-  border-style: outset;
-  border-width: 8px;
+  border-style: solid;
+  border-width: 5px;
 }
-.sectionHeadings{
+.sectionHeadings {
   text-align: center;
   margin-top: 12%;
 }
-.sectionHeadings p{
-  background-color:rgba(29, 28, 28,0.3);
+.sectionHeadings p {
+  background-color: rgba(29, 28, 28, 0.3);
   color: white;
   font-weight: bold;
 }
-.footer{
+.footer {
   background-color: rgb(29, 28, 28);
   color: white;
   position: relative;
@@ -161,14 +174,14 @@
   bottom: 0;
   width: 100%;
 }
-.social li{
+.social li {
   font-size: x-large;
   margin-left: 5px;
   margin-right: 5px;
   list-style: none;
   display: inline-block;
 }
-.socialAlpha li{
+.socialAlpha li {
   list-style: none;
 }
 .verses {
@@ -197,14 +210,14 @@
   width: 80%;
   float: right;
 }
-.pastorImage{
+.pastorImage {
   padding: 20px;
   height: 100%;
   width: 100%;
 }
-.pastorBio{
+.pastorBio {
   padding: 20px;
 }
-.card{
-  background-color:rgba(100,149,237,0.1);
+.card {
+  background-color: rgba(100, 149, 237, 0.1);
 }
