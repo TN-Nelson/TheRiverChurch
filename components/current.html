@@ -71,35 +71,37 @@
             </video>
         </div>
     </header>
-    <div class="wrapper">
-<h1>Events for this Month.</h1>
-<div id="calendar"></div>
-<div id="calendar_data">
-  <h3>No Events</h3>
-  <dl>
-    <dt><dfn>Title:</dfn></dt><dd>No Events for this Day</dd>
-    <dt><dfn>Hour:</dfn></dt><dd>No provide</dd>
-    <dt><dfn>Venue:</dfn></dt><dd>No provide</dd>
-    <dt><dfn>Location:</dfn></dt><dd>No provide</dd>
-    <dt><dfn>Description:</dfn></dt><dd>No provide</dd>
-    <dt><dfn>More Info:</dfn></dt><dd><a href="#" title="More info">Here</a><dt></dd>
-  </dl>
-</div>
-<div class="clearfix"></div>
-<div id="json">
-  <pre><code>{
-    "9/12/2014": {
-        "type":"Conference",
-        "title": "International Conference",
-        "venue":"Hyatt Regency Hotel",
-        "location": "Calgary Alberta , Canada",
-        "time": "10:00 AM",
-        "desc": "Lorem ipsum dolor sit amet...",
-        "more": "http://www.example.com"
-    }
- }</code></pre>
-</div>
-</div>
+   <div class="section" style="height: fit-content;">
+       <div class="container col-md-7  my-5">
+       <div class="card">
+           <h3 class="card-header" id="monthAndYear">Month and Year</h3>
+           <table class="table table-bordered table-responsive-sm" id="calendar">
+               <thead>
+                   <tr>
+                       <th>Sun</th>
+                       <th>Mon</th>
+                       <th>Tue</th>
+                       <th>Wed</th>
+                       <th>Thu</th>
+                       <th>Fri</th>
+                       <th>Sat</th>
+                   </tr>
+               </thead>
+               <tbody id="calendar-body"></tbody>
+           </table>
+           <div class="form-inline">
+               <button class="btn btn-outline-primary col-sm-6" onclick="previous()">Previous</button>
+               <button class="btn btn-outline-primary col-sm-6" onclick="next()">Next</button>
+           </div>
+       </div>
+       </div>
+   </div>
+   <div class="section">
+       <h3 class="mt-3" style="text-align: center;">Sermon Series Information</h3>
+       <div class="sermonInfo">
+
+       </div>
+   </div>
       <footer class="footer">
         <div class="container">
             <div class="row py-4">
@@ -116,10 +118,11 @@
                 <div class="col-md-3">
                     <h3>Useful Info</h3>
                     <ul class="socialAlpha">
-                        <li>I'm New</li>
-                        <li>Currently</li>
-                        <li>Give With Purpose</li>
-                        <li>Connect</li>
+                        <li><a href="new.html"> I'm New </a></li>
+                        <li><a href="current.html"> Currently </a></li>
+                        <li><a href="give.html"> Give With Purpose </a></li>
+                        <li><a href="serve.html">Serve </a></li>
+                        <li><a href="community.html"> Community </a></li>
                     </ul>
                 </div>
                 <div class="col-md-3">
