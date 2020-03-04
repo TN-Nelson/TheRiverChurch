@@ -1,3 +1,6 @@
+h3 {
+  text-align: center;
+}
 .header {
   max-height: 500px;
   overflow: hidden;
@@ -144,14 +147,16 @@
   font-size: 36px;
 }
 .section {
-  height: 400px;
+  background-color:rgba(100,149,237,0.3);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   border: black;
   border-style: solid;
   border-radius: 10px;
   border-width: 5px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  height: auto;
+  min-height: 400px;
 }
 .sectionAlpha {
   height: 600px;
