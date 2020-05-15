@@ -1,0 +1,54 @@
+<%- include("partials/header") -%>
+<section id="current-page" class="dark-background">
+    <div class="container-fluid">
+        <div class="overlay">
+            <div class="outer-box">
+                <div class="inner-box">
+                    <div class="box-text">
+                        <h2>Currently</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="light-background">
+    <div class="container-fluid">
+        <h3 class="text-center" id="monthAndYear"></h3>
+        <table class="table" id="calendar">
+            <thead>
+                <tr>
+                    <th>Sunday</th>
+                    <th>Monday</th>
+                    <th>Tuesday</th>
+                    <th>Wednesday</th>
+                    <th>Thursday</th>
+                    <th>Friday</th>
+                    <th>Saturday</th>
+                </tr>
+            </thead>
+
+            <tbody id="calendar-body"></tbody>
+        </table>
+    </div>
+</section>
+<section id="sermon" class="dark-background">
+    <div class="container-fluid">
+        <h3 class="text-center">Sermon Series Info</h3>
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-6 text">
+               <p><i class="fas fa-feather-alt"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p><i class="fas fa-feather-alt"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p><i class="fas fa-feather-alt"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p><i class="fas fa-feather-alt"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 img-container">
+                <img src="/images/give-side.jpg" class="column-img" alt="">
+            </div>
+        </div>
+
+
+    </div>
+</section>
+<script src="/main.js"></script>
+<%- include("partials/footer") -%>

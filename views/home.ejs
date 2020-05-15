@@ -1,0 +1,51 @@
+<%- include("partials/header") -%>
+
+<section id="home-page">
+    <div class="video-container">
+        <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" class="video">
+            <source src="video/Ocean.mp4" type="video/mp4" />
+        </video>
+        <div class="overlay">
+            <div class="overlay-text">
+                <h1>Your Journey Starts Here!</h1>
+                <div class="">
+                    <a class="buttons" href="#message">Latest Message</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="message" class="dark-background">
+    <div class="text-center">
+        <h2>Latest Message</h2>
+        <div class="">
+            <video playsinline="playsinline" controls class="message-video">
+                <source src="video/Ocean.mp4" type="video/mp4" />
+            </video>
+        </div>
+    </div>
+    <div class="text-center">
+        <a class="buttons" href="">Give</a>
+    </div>
+</section>
+<section id="instagram-feed" class="light-background">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-3 col-md-3 col-sm-6">
+                <a href=""><img src="/images/sunset.jpg" class="card-img" alt=""></a>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6">
+                <a href=""><img src="/images/sunset.jpg" class="card-img" alt=""></a>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6">
+                <a href=""><img src="/images/sunset.jpg" class="card-img" alt=""></a>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6">
+                <a href=""><img src="/images/sunset.jpg" class="card-img" alt=""></a>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<%- include("partials/footer") -%>
